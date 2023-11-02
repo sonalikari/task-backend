@@ -14,7 +14,7 @@ mongoose.connect(process.env.DATABASE)
 app.use(cookieParser());
 app.use(cors({
   credentials: true,
-  origin: ['http://localhost:3000'],
+  origin: ['https://task-frontend-csx2.onrender.com/'],
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
